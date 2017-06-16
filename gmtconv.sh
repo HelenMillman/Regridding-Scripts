@@ -1,0 +1,1 @@
+grd2xyz input.nc?input_variable | mapproject -Js0/-90/-71/1:1 -R0/360/-90/-60 --MEASURE_UNIT=m --MAP_SCALE_FACTOR=1 -C | surface -Goutput.nc -I5000/5000 -T1 -R-2802500.000/3197500.000/-2802500.000/3197500.000
